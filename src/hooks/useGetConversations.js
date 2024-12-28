@@ -57,7 +57,7 @@ const useGetConversations = () => {
         // const res = await fetch('http://localhost:5000/api/users', {
         //   credentials: 'include'// Include cookies with the request
         // });
-        const res = await axios.get('http://localhost:5000/api/users', {
+        const res = await axios.get('https://chats-backend-sgl1.onrender.com/api/users', {
           withCredentials: true // Include cookies with the request
         });
 
